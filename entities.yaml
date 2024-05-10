@@ -6,6 +6,6 @@ metadata:
   annotations:
     backstage.io/source-location: url:https://github.com/bchen528/backstage-test
 spec:
-  owner: guests
   type: None
+  owner: guests
   lifecycle: Experimental
