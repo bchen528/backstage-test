@@ -2,6 +2,9 @@ site_name: 'example-docs'
 
 nav:
   - Home: index.md
+  - Google: "www.google.com"
+  - Playbooks: ../playbooks/index.md
+  - More docs: more_docs/some_doc.md
 
 plugins:
   - techdocs-core
