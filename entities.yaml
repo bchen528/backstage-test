@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Becky's test app
+  description: some text
+  annotations:
+    backstage.io/source-location: url:https://github.com/bchen528/backstage-test
+spec:
+  owner: guests
