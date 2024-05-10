@@ -7,3 +7,5 @@ metadata:
     backstage.io/source-location: url:https://github.com/bchen528/backstage-test
 spec:
   owner: guests
+  type: None
+  lifecycle: Experimental
