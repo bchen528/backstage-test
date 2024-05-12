@@ -1,12 +1,12 @@
 site_name: 'example-docs'
 
 repo_url: https://github.com/bchen528/backstage-test/
-edit_uri: 'blob/main/docs/'
+edit_uri: 'edit/main/docs/'
 
 nav:
   - Home: index.md
   - Google: 'https://google.com/'
-  - Playbooks: 'playbooks/index.md'
+  - Playbooks: 'https://github.com/bchen528/backstage-test/blob/main/playbooks/index.md'
   - More docs: more_docs/some_doc.md
 
 plugins:
