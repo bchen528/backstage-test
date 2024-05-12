@@ -1,6 +1,7 @@
 site_name: 'example-docs'
 
-edit_uri: 'edit/main/docs/'
+repo_url: https://github.com/bchen528/backstage-test/
+edit_uri: 'blob/main/docs/'
 
 nav:
   - Home: index.md
