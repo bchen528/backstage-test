@@ -6,7 +6,7 @@ edit_uri: 'edit/main/docs/'
 nav:
   - Home: index.md
   - Google: 'https://google.com/'
-  - Playbooks: 'https://github.com/bchen528/backstage-test/blob/main/playbooks/index.md'
+  - Playbooks: '../playbooks/index.md'
   - More docs: more_docs/some_doc.md
 
 plugins:
