@@ -4,4 +4,5 @@ nav:
   - Playbooks: 'index.md'
 
 plugins:
+  - techdocs-core
   - monorepo

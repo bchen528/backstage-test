@@ -10,4 +10,5 @@ nav:
   - Playbooks: !include ./playbooks/mkdocs.yml
 
 plugins:
+  - techdocs-core
   - monorepo
