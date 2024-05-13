@@ -2,3 +2,6 @@ site_name: 'Playbooks'
 
 nav:
   - Playbooks: 'index.md'
+
+plugins:
+  - monorepo
