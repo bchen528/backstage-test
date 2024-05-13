@@ -1,3 +1,3 @@
 # playbooks docs
 
-some text
+some text in playbooks/index.md
