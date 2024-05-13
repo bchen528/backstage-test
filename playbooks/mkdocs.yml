@@ -1,7 +1,4 @@
-site_name: 'example-docs'
-
-repo_url: https://github.com/bchen528/backstage-test/playbooks/
-edit_uri: 'edit/main/docs/'
+site_name: 'Playbooks'
 
 nav:
   - Playbooks: 'index.md'

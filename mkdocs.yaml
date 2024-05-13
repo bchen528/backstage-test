@@ -6,8 +6,8 @@ edit_uri: 'edit/main/docs/'
 nav:
   - Home: index.md
   - Google: 'https://google.com/'
-  - Playbooks: '../playbooks/index.md'
   - More docs: more_docs/some_doc.md
+  - Playbooks: !include ./playbooks/mkdocs.yml
 
 plugins:
-  - techdocs-core
+  - monorepo
