@@ -7,8 +7,7 @@ nav:
   - Home: index.md
   - Google: 'https://google.com/'
   - More docs: more_docs/some_doc.md
-  - Playbooks: !include ./playbooks/mkdocs.yml
+  - Playbooks: '!include ./playbooks/mkdocs.yml'
 
 plugins:
-  - techdocs-core
   - monorepo
