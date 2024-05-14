@@ -4,10 +4,12 @@ repo_url: https://github.com/bchen528/backstage-test/
 edit_uri: 'edit/main/docs/'
 
 nav:
-  - Home: index.md
-  - Google: 'https://google.com/'
-  - More docs: 'more_docs/**/*.md'
-  - Playbooks: '!include ./playbooks/mkdocs.yml'
+#   - Home: 'index.md'
+#   - README: '../'
+#   - Google: 'https://google.com/'
+#   - More docs: 'more_docs/**/*.md'
+#   - Playbooks: '!include ./playbooks/mkdocs.yml'
 
-plugins:
-  - monorepo
+# plugins:
+#   - monorepo
+
