@@ -6,7 +6,7 @@ edit_uri: 'edit/main/docs/'
 nav:
   - Home: index.md
   - Google: 'https://google.com/'
-  - More docs: more_docs/some_doc.md
+  - More docs: more_docs/**/*.md
   - Playbooks: '!include ./playbooks/mkdocs.yml'
 
 plugins:

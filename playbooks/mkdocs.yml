@@ -1,4 +1,5 @@
 site_name: 'Playbooks'
 
 nav:
-  - Playbooks: 'index.md'
+  - Overview: 'index.md'
+  - About: 'about.md'
