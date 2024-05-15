@@ -2,6 +2,4 @@
 
 This is a basic example of documentation.
 
-trigger github action to generate/publish new docs
-
-again trigger github action again
+Demo ![tomato](./tomato.png)
