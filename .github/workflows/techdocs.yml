@@ -11,31 +11,7 @@ jobs:
   publish-techdocs-site:
     runs-on: ubuntu-latest
 
-    env:
-      TECHDOCS_S3_BUCKET_NAME: ${{ secrets.TECHDOCS_S3_BUCKET_NAME }}
-      AWS_ACCESS_KEY_ID: ${{ secrets.TECHDOCS_AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.TECHDOCS_AWS_SECRET_ACCESS_KEY }}
-      AWS_REGION: ${{ secrets.TECHDOCS_AWS_REGION }}
-      ENTITY_NAMESPACE: 'default'
-      ENTITY_KIND: 'Component'
-      ENTITY_NAME: 'backstage-test'
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-      - uses: actions/setup-python@v4
+      - uses: actions/heroku-backstage-techdocs-action@stable
         with:
-          python-version: '3.9'
-
-      - name: Install techdocs-cli
-        run: npm install -g @techdocs/cli
-
-      - name: Install mkdocs and mkdocs plugins
-        run: python -m pip install mkdocs-techdocs-core==1.*
-
-      - name: Generate docs site
-        run: techdocs-cli generate --no-docker --verbose
-
-      - name: Publish docs site
-        run: techdocs-cli publish --publisher-type awsS3 --storage-name $TECHDOCS_S3_BUCKET_NAME --entity $ENTITY_NAMESPACE/$ENTITY_KIND/$ENTITY_NAME
+          component-name: backstage-test
