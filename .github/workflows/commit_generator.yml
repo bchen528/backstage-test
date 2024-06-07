@@ -1,0 +1,22 @@
+name: Trigger Empty Commit
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  health-check:
+    name: Generate Commit
+    runs-on: sfdc-hk-ubuntu-latest
+    steps:
+      - name: Check out the code
+        uses: actions/checkout@v4
+      - name: Create Empty Commit
+        run: |
+          git config --global user.name 'bchen528'
+          git config --global user.email 'becky.chen@salesforce.com'
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git commit --allow-empty -m "Triggering build (automation)"
+          git push
