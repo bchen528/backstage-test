@@ -1,6 +1,6 @@
 # example docs
 
-Testing Webhook Plugin.............
+Testing Webhook Plugin..............
 
 This is a basic example of documentation.
 
